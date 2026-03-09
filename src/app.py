@@ -36,3 +36,7 @@ def contato():
 @app.route("/cadastro-livro")
 def cadastro_livro():
     return "Página de cadastro de livros"
+
+@app.route("/cadastro-livro")
+def cadastro_livro():
+    return "Formulário de cadastro de livros"
