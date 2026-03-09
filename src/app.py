@@ -24,3 +24,7 @@ def sobre():
 @app.route("/livros")
 def livros():
     return "Lista de livros cadastrados"
+
+@app.route("/autores")
+def autores():
+    return "Lista de autores cadastrados"
