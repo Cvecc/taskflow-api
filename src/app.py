@@ -21,3 +21,6 @@ def home():
 def sobre():
     return "Sistema desenvolvido em Flask para estudo de CI/CD"
 
+@app.route("/livros")
+def livros():
+    return "Lista de livros cadastrados"
