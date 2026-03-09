@@ -43,4 +43,4 @@ def cadastro_livro():
 
 @app.route("/")
 def home():
-    return "Sistema de Gestão de Biblioteca"
+    return "Sistema de Biblioteca Online"
